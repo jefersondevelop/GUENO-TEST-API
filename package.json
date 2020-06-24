@@ -6,7 +6,7 @@
   "scripts": {
     "test": "ts-node node_modules/jasmine/bin/jasmine --config=./spec/support/jasmine.json",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test",
-    "start": "nodemon src/app.ts",
+    "start": "node src/app.ts",
     "start:dev": "nodemon src/app.ts"
   },
   "author": "Jeferson J. Alvarado C",
