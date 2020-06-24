@@ -32,6 +32,6 @@ npm run test
 ## Available on heroku
 
 ```
-https://gueno-api.herokuapp.com
+https://gueno-api.herokuapp.com 
 
 ```
