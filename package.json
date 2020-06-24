@@ -1,0 +1,29 @@
+{
+  "name": "APITEST",
+  "version": "1.0.0",
+  "description": "This is test for a job apply.",
+  "main": "app.ts",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=./spec/support/jasmine.json",
+    "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test",
+    "start": "nodemon src/app.ts",
+    "start:dev": "nodemon src/app.ts"
+  },
+  "author": "Jeferson J. Alvarado C",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.4",
+    "@types/jasmine": "^3.5.11",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
