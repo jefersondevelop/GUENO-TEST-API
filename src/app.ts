@@ -9,7 +9,7 @@ let app = express();
 
 const PORT = process.env.PORT || 8081;
 
-const FRONT_URL = process.env.FRONT_URL || 'http://localhost:3000'; 
+const FRONT_URL = process.env.FRONT_URL || 'http://localhost:3001'; 
 
 app.use(
   cors({
